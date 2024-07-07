@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-8-%+=07$tk*9jmnc#-_p%)uzv9bxcgm!(+vtsj)opk8%x3y$0d
 
 DEBUG = True
 
+ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net']
 
 # Application definition
 
@@ -173,3 +174,4 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
