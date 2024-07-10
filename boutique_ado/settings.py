@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-8-%+=07$tk*9jmnc#-_p%)uzv9bxcgm!(+vtsj)opk8%x3y$0d
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net', 'gitpod']
 
 # Application definition
 
