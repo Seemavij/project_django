@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-8-%+=07$tk*9jmnc#-_p%
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG =  'DEVELOPMENT' in os.environ
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net', 'gitpod']
 
