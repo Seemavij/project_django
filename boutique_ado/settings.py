@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-8-%+=07$tk*9jmnc#-_p%
 
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net', 'gitpod']
+ALLOWED_HOSTS = ['8000-seemavij-projectdjango-brmqwk50opv.ws.codeinstitute-ide.net', 'boutiques-58abca999262.herokuapp.com']
 
 # Application definition
 
