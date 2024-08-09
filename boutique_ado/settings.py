@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-8-%+=07$tk*9jmnc#-_p%
 
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['5006-seemavij-projectdjango-32xdiggyc54.ws.codeinstitute-ide.net', 'ak-avocado.herokuapp.com']
+ALLOWED_HOSTS = ['ak-avocado.herokuapp.com', 'localhost']
 
 # Application definition
 
